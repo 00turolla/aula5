@@ -1,0 +1,97 @@
+/* configurações Gerais da Pagina */
+
+/* O * asterisco) seleciona todos os elementos da pagina*/
+
+body{
+    /* Define a fonte*/
+    font-family: Arial, sans-serif;
+    /*remove a margem padrão do navegador*/
+    margin: 0%;
+    /*muda a cor do fundo*/
+    background-color: whitesmoke;
+    /*definir cor dos textos*/
+    color: black;
+}
+
+header{
+    background-color: #222;
+    color: white;
+    /*espaçamento interno*/
+    padding: 30px;
+    /*Centralizar texto*/
+    text-align: center;
+}
+
+header h1 {
+    /*remover a margem superiror*/
+    margin-top: 0;
+}
+
+nav{
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a{
+    background-color: #444;
+    color: white;
+    /*remover sublinhado*/
+    text-decoration: none;
+    padding: 12px;
+    /*espaçamento entre links*/
+    margin: 0 15px;
+}
+
+nav a:hover{
+    color: cornflowerblue;
+}
+
+main{
+    /*define uma largura maxima*/
+    max-width: 1000px;
+    /*centraliza o conteudo*/
+    margin: 30px auto;
+    /*espaçamento lateral*/
+    padding: 0 20px;
+}
+
+section{
+    background-color: white;
+    /*espaçamento interno*/
+    padding: 30px;
+    /*arredonda os cantos*/
+    border-radius: 10px;
+    /*espaçamento abaixo da sessão*/
+    margin-bottom: 30px;
+}
+
+article{
+    background-color: white;
+    padding: 25px;
+    /*espaçamento entre article*/
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+article h2{
+    color: cornflowerblue;
+}
+
+aside{
+    background-color: cornflowerblue;
+    padding: 20px;
+    border-left: 5px solid blue;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #222;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+address{
+    color: blue;
+}
